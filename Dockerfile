@@ -6,3 +6,5 @@ COPY ./build/libs/*.jar /usr/app/myapp.jar
 WORKDIR /usr/app
 
 ENTRYPOINT ["java", "-jar", "myapp.jar"]
+
+
